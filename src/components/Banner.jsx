@@ -9,7 +9,7 @@ import TrackVisibility from "react-on-screen";
 export  const Banner = () => {
     const [loopNum, setLoopNum] = useState(0);
     const [isDeleting, setIsDeleting] = useState(false);
-    const toRotate = [" Web Developer", " App Developer", " Surveyor"];
+    const toRotate = [" Frontend Developer", " Backend Developer", " App Developer"];
     const [text, setText] = useState('');
     const [index, setIndex] = useState(1);
     const [delta, setDelta] = useState(300 - Math.random() * 100);
@@ -57,7 +57,7 @@ export  const Banner = () => {
                          <span className="tagline">Welcome to my Portfolio</span>
                          <h1>{`Hi! I'm Ebenn`}</h1>
                          <h2><span className="txt-rotate" dataPeriod="1000" data-rotate='["Web Developer", "App Developer", "Surveyor"]'><span className="wrap">{text}</span></span></h2>
-                         <p>Surveyor turn Web Developer. Bridging the gap between land and code. Crafting digital landscapes</p>
+                         <p>Passionate about building impactful digital experiences, I specialize in crafting responsive, high-performance applications using React and Java. I love turning complex ideas into simple, functional, and elegant solutions.</p>
                          <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25}/></button>
                         </div>}
                       </TrackVisibility>

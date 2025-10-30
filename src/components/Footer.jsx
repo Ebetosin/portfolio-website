@@ -20,7 +20,7 @@ export const Footer = () => {
                             <a href='https://www.facebook.com/ebenezer.ojo.7737?mibextid=YMEMSu'><img src={navIcon2} alt="Facebook" /></a>
                             <a href='https://www.instagram.com/e__benn'><img src={navIcon3} alt="Instagram" /></a>
                         </div>
-                        <p>CopyRight 2024. All Right Reserved by Ebenn </p>
+                       <p>Copyright © {new Date().getFullYear()}. All Rights Reserved by E_benn.</p>
                     </Col>
                 </Row>
             </Container>

@@ -38,7 +38,7 @@ const handleSubmit = async (e) => {
     setButtonText("Send");
     let result = response.json();
     setFormDetails(formInitialDetails);
-    if (result.code === 2000) {
+    if (result.code === 200) {
         setStatus({successs: true, message: 'Message sent successfully'});
     } else
     setStatus({successs: false, message: 'Something went wrong, please try again later'});
